@@ -30,7 +30,7 @@ word[::-1]
 
 
 ## IPython
->Embed an IPython shell in your code for easy debugging
+>Embed an IPython shell in your code for easy debugging 
 ```python
 import IPython; IPython.embed(); exit(1)
 ```
@@ -108,7 +108,7 @@ def singleNumber(self, nums):
 ```
 
 # Algorithms
-> Quicksort 1 liner
+> Quicksort 1 liner https://wiki.python.org/moin/Powerful%20Python%20One-Liners
 ```python
 qsort = lambda L: [] if L==[] else qsort([x for x in L[1:] if x< L[0]]) + L[0:1] + qsort([x for x in L[1:] if x>=L[0]])
 qsort(6,7,1,4,9,21)
