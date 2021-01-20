@@ -4,8 +4,8 @@ A compilation of code snippets
 
 # Python :snake:
 > Simple Web server
-```python
-python -m http.server
+```bash
+$ python -m http.server
 ```
 > Run Bash commands in python code
 ```python
