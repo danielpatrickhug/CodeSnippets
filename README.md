@@ -107,6 +107,13 @@ def singleNumber(self, nums):
 >>> 8 >> 1
 ```
 
+# Algorithms
+> Quicksort 1 liner
+```python
+qsort = lambda L: [] if L==[] else qsort([x for x in L[1:] if x< L[0]]) + L[0:1] + qsort([x for x in L[1:] if x>=L[0]])
+qsort(6,7,1,4,9,21)
+```
+
 
 # Contributions
 - All contributions are welcome
