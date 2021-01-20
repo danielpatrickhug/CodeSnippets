@@ -7,6 +7,12 @@ A compilation of code snippets
 ```python
 python -m http.server
 ```
+> Run Bash commands in python code
+```python
+bashCmd = ["cd", ".."]
+process = subprocess. Popen(bashCmd, stdout=subprocess. PIPE)
+output, error = process.communicate()
+```
 > Palindrome
 ```python
 word.find(word[::-1])
