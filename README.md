@@ -13,6 +13,11 @@ bashCmd = ["cd", ".."]
 process = subprocess. Popen(bashCmd, stdout=subprocess. PIPE)
 output, error = process.communicate()
 ```
+> Create an Virtual Enviroment(MacOS and Unix)
+```bash
+$ python3 -m venv virtual-env
+$ source virtual-env/bin/activate
+```
 > Palindrome
 ```python
 word.find(word[::-1])
@@ -103,7 +108,8 @@ def singleNumber(self, nums):
 ```
 
 
-
+# Contributions
+- All contributions are welcome
 
 
 
