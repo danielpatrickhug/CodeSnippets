@@ -1,8 +1,8 @@
-# Code Snippets
+# Code Snippets :computer:
 
 A compilation of code snippets
 
-# Python
+# Python :snake:
 > Simple Web server
 ```python
 python -m http.server
