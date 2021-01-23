@@ -52,7 +52,7 @@ new_list = [x*x for x in nums if x % 2 == 0]
 ```
 >Nested 
 ```python
-[i*j for i in range(100) for j in range(10)]
+new_list = [i*j for i in range(100) for j in range(10)]
 ```
 
 >Map vs List Comprehension
